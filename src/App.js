@@ -11,6 +11,7 @@ function App() {
   const [apples, setApples] = useState(0);
   const [bananas, setBananas] = useState(0);
   const [pears, setPears] = useState(0);
+
   return (
 <fruitTeller.Provider value={{
   apples : apples,
